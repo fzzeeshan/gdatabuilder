@@ -15,14 +15,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:gdatabuilder.helloWorld"
+		"onCommand:gdatabuilder.createBoilerPlate"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "gdatabuilder.helloWorld",
-				"title": "Hello World"
+				"command": "gdatabuilder.createBoilerPlate",
+				"title": "Create Web Boiler Plate."
 			}
 		]
 	},
